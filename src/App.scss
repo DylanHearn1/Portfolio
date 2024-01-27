@@ -13,3 +13,24 @@ html {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+body {
+  padding: 0 5%;
+}
+
+@mixin standard-font-size {
+  font-size: 1.10rem;
+}
+
+p {
+  @include standard-font-size();
+}
+
+li {
+  @include standard-font-size();
+
+  a {
+    @include standard-font-size();
+  }
+
+}

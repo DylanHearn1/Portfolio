@@ -1,10 +1,21 @@
+import MainButton from '../Button/Button';
+
 const Navbar = () => {
   return (
-    <div className="bg-slate-500 fixed left-0 w-full">
-      <ul className="flex justify-between desktop-width m-auto">
-        <li>test</li>
-        <li>test</li>
-        <li>test</li>
+    <div className="text-primary fixed backdrop-blur-xl bg-white/75 left-0 w-full">
+      <ul className="flex desktop-width m-auto justify-center space-x-10 py-2 items-center">
+        <li className="hover:underline">
+          <a href="#">Home</a>
+        </li>
+        <li className="hover:underline">
+          <a href="#">About</a>
+        </li>
+        <li className="hover:underline">
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <MainButton name="Download CV" onclick={() => alert('hello')} />
+        </li>
       </ul>
     </div>
   );

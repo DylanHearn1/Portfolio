@@ -8,6 +8,17 @@
         max-width: 1280px;
     }
 
+    .subheading {
+        font-size: 2.25rem; /* 36px */
+        line-height: 2.5rem;
+        opacity: 75%;
+        color: #050315;
+    }
+
+    .standard-font-size {
+        font-size: 1.10rem;
+    }
+
     @mixin accent {
         background-color: #6F98FF
     }
