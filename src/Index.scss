@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .desktop-width {
+        max-width: 1280px;
+    }
+
+    @mixin accent {
+        background-color: #6F98FF
+    }
+
+    .primary {
+        color: #433BFF
+    }
+
+    .primary-background {
+        background-color: #433BFF;
+
+        &:hover {
+            @include accent()
+        }
+    }
+
+    .primary-text-color {
+        color: #050315;
+    }
+
+    .secondary {
+        color: #eeedff;
+    }
+
+    .secondary-background {
+        background-color: #eeedff;
+    }
+
+    .custom-button-shadow {
+        box-shadow: #6F98FF 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+}
