@@ -4,35 +4,38 @@
 
 @layer components {
 
-    .desktop-width {
+    .w-desktop {
         max-width: 1280px;
     }
 
     .subheading {
         font-size: 2.25rem; /* 36px */
         line-height: 2.5rem;
-        opacity: 75%;
         color: #050315;
     }
 
     .standard-font-size {
-        font-size: 1.10rem;
+        font-size: 1.20rem;
     }
 
     @mixin accent {
-        background-color: #6F98FF
+        background-color: #698cff
+    }
+
+    .accent {
+        @include accent();
+    }
+
+    .bg-accent {
+        @include accent();
     }
 
     .primary {
-        color: #433BFF
+        color: #0050ff
     }
 
-    .primary-background {
-        background-color: #433BFF;
-
-        &:hover {
-            @include accent()
-        }
+    .bg-primary {
+        background-color: #0050ff;
     }
 
     .primary-text-color {
@@ -43,11 +46,7 @@
         color: #eeedff;
     }
 
-    .secondary-background {
+    .bg-secondary {
         background-color: #eeedff;
-    }
-
-    .custom-button-shadow {
-        box-shadow: #6F98FF 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     }
 }
