@@ -1,6 +1,6 @@
 interface buttonProps {
   name: string;
-  onclick: () => void;
+  onclick?: () => void;
   margin?: string;
 }
 

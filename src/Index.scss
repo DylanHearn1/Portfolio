@@ -14,6 +14,13 @@
         color: #050315;
     }
 
+    .title {
+        font-size: 2.25rem; /* 36px */
+        line-height: 2.5rem;
+        color: #050315;
+        font-weight: 600;
+    }
+
     .standard-font-size {
         font-size: 1.20rem;
     }
@@ -48,5 +55,9 @@
 
     .bg-secondary {
         background-color: #eeedff;
+    }
+
+    .shadow-card {
+        box-shadow: rgba(14, 30, 37, 0.048) 0px 2px 4px 0px, rgba(14, 30, 37, 0.178) 0px 2px 16px 0px;
     }
 }
