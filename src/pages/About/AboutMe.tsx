@@ -36,23 +36,19 @@ const AboutMe = () => {
             <span className="primary">About</span> me
           </h2>
           <p className="opacity-75">
-            Hi, I'm a motivated <strong>Front-end </strong> Developer seeking a
-            <strong> junior </strong> position to break into the industry
-            passionate about crafting seamless user experiences. Proficient in
-            TypeScript, JavaScript, SCSS, Git, and experienced with React and
-            Tailwind CSS. I thrive in collaborative environments, ensuring code
-            quality and responsiveness. Eager to contribute my skills and learn
-            in a dynamic team.
-          </p>
-          <br />
-          <p className="opacity-75">
-            Hi, I'm a motivated <strong>Front-end </strong> Developer seeking a
-            <strong> junior </strong> position to break into the industry
-            passionate about crafting seamless user experiences. Proficient in
-            TypeScript, JavaScript, SCSS, Git, and experienced with React and
-            Tailwind CSS. I thrive in collaborative environments, ensuring code
-            quality and responsiveness. Eager to contribute my skills and learn
-            in a dynamic team.
+            Hi, I'm a motivated <strong className="primary">Front-end </strong>{' '}
+            Developer seeking a<strong className="primary"> junior </strong>{' '}
+            position to break into the industry passionate about crafting
+            seamless user experiences. Proficient in
+            <strong className="primary"> Typescript </strong>,{' '}
+            <strong className="primary">Javascript </strong>,{' '}
+            <strong className="primary">SCSS</strong>,{' '}
+            <strong className="primary">Git</strong>, and experienced with
+            <strong className="primary"> React</strong> and{' '}
+            <strong className="primary">Tailwind CSS</strong>. I thrive in
+            collaborative environments, ensuring code quality and
+            responsiveness. Eager to contribute my skills and learn in a dynamic
+            team.
           </p>
         </div>
       </div>
