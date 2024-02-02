@@ -19,7 +19,7 @@ const ProjectCard = ({
   gif,
 }: ProjectCardProps) => {
   return (
-    <div className="flex space-y-5 col-span-2 items-center gap-10 even:flex-row-reverse">
+    <div className="flex space-y-5 col-span-2 items-center gap-10 even:flex-row-reverse py-10">
       <div className="shadow-xl relative overflow-hidden rounded-lg w-1/2">
         <img
           src={image}
@@ -40,8 +40,8 @@ const ProjectCard = ({
         <h2 className="subheading">{title}</h2>
         <p className="opacity-75">{description}</p>
         <div className="flex space-x-5">
-          <SecondaryAnchor name="Code" link={codeLink} />
-          <MainAnchor name="Live site" link={liveLink} />
+          <SecondaryAnchor name="Code" link={codeLink} newTab />
+          <MainAnchor name="Live site" link={liveLink} newTab />
         </div>
       </div>
     </div>

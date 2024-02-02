@@ -8,9 +8,11 @@ const Projects = () => {
   return (
     <div className="space-y-10">
       <div className="space-y-5 w-1/2">
-        <h1 className="title">My projects</h1>
+        <h1 className="title">
+          My <span className="primary">projects</span>
+        </h1>
       </div>
-      <div className="grid grid-cols-2 gap-10 space-y-10">
+      <div className="grid grid-cols-2 gap-x-10 divide-y-2">
         <ProjectCard
           title="Venture Vision"
           description="This website is for real estate agencies to showcase homes through 3D
