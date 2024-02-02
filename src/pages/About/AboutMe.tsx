@@ -40,8 +40,8 @@ const AboutMe = () => {
             Developer seeking a<strong className="primary"> junior </strong>{' '}
             position to break into the industry passionate about crafting
             seamless user experiences. Proficient in
-            <strong className="primary"> Typescript </strong>,{' '}
-            <strong className="primary">Javascript </strong>,{' '}
+            <strong className="primary"> Typescript</strong>,{' '}
+            <strong className="primary">Javascript</strong>,{' '}
             <strong className="primary">SCSS</strong>,{' '}
             <strong className="primary">Git</strong>, and experienced with
             <strong className="primary"> React</strong> and{' '}

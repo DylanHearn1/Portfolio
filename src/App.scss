@@ -20,8 +20,13 @@ html {
   font-size: 1.20rem;
 }
 
+h1, h1, h3, h4, h5 {
+  color: #050315;
+}
+
 p {
   @include standard-font-size();
+  color: #050315;
 }
 
 li {

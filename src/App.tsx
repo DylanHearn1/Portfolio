@@ -15,20 +15,20 @@ function App() {
       <section className="px-10" id="home">
         <Homepage />
       </section>
-      <div className="space-y-40">
-        <section className="px-10" id="about">
+      <div className="space-y-40 px-10">
+        <section id="about">
           <AboutMe />
         </section>
-        <section className="px-10" id="projects">
+        <section id="projects">
           <Projects />
         </section>
         <section id="contact">
           <ContactMe />
         </section>
-        <footer className="mt-20">
-          <Footer />
-        </footer>
       </div>
+      <footer className="mt-20">
+        <Footer />
+      </footer>
     </>
   );
 }
