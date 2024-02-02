@@ -5,7 +5,7 @@ import linkedinLogo from './../../assets/linkdedinLogo.png';
 
 const Homepage = () => {
   return (
-    <div className="h-dvh items-center flex justify-between">
+    <div className="h-dvh md:items-center flex flex-col justify-center md:flex-row md:justify-between space-y-10">
       <div className="space-y-3">
         <h1 className="text-8xl primary-text font-bold">Dylan Hearn</h1>
         <h2 className="subheading">Front-end Developer</h2>
@@ -30,8 +30,12 @@ const Homepage = () => {
           </a>
         </div>
       </div>
-      <div className="space-x-6">
-        <SecondaryButton name="Contact" onclick={() => alert('clicked')} />
+      <div>
+        <SecondaryButton
+          name="Contact"
+          onclick={() => alert('clicked')}
+          margin="mr-5 mb-4"
+        />
         <MainButton name="Download CV" onclick={() => alert('clicked')} />
       </div>
     </div>

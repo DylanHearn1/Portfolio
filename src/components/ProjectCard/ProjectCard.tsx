@@ -19,8 +19,8 @@ const ProjectCard = ({
   gif,
 }: ProjectCardProps) => {
   return (
-    <div className="flex space-y-5 col-span-2 items-center gap-10 even:flex-row-reverse py-10">
-      <div className="shadow-xl relative overflow-hidden rounded-lg w-1/2">
+    <div className="flex flex-col-reverse md:flex-row space-y-5 col-span-2 items-center gap-10 md:even:flex-row-reverse py-10">
+      <div className="shadow-xl relative overflow-hidden rounded-lg md:w-1/2">
         <img
           src={image}
           alt="Project screenshot"
@@ -36,7 +36,7 @@ const ProjectCard = ({
           loading="lazy"
         />
       </div>
-      <div className="w-1/2 space-y-5">
+      <div className="md:w-1/2 space-y-5">
         <h2 className="subheading">{title}</h2>
         <p className="opacity-75">{description}</p>
         <div className="flex space-x-5">

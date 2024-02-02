@@ -29,7 +29,7 @@ const AboutMe = () => {
   ];
 
   return (
-    <div className="md:flex gap-10 ">
+    <div className="md:flex gap-10 space-y-10">
       <div className="md:w-1/2">
         <div className="shadow-xl rounded-xl px-5 py-4">
           <h2 className="title my-3">
@@ -63,7 +63,7 @@ const AboutMe = () => {
             dolorem dolorum ad unde consectetur. Corrupti, aspernatur sunt!
             Odio.
           </p>
-          <ul className="grid grid-cols-2">
+          <ul className="grid grid-cols-1 sm:grid-cols-2">
             {skills.map((skill, ind) => (
               <li className="flex items-center gap-5 mb-5" key={ind}>
                 <img
