@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <div className="space-y-10">
       <div className="space-y-5 w-1/2">
-        <h1 className="title">
+        <h1 className="title dark:text-white">
           My <span className="primary">projects</span>
         </h1>
       </div>

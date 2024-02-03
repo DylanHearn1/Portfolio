@@ -32,10 +32,10 @@ const AboutMe = () => {
     <div className="md:flex gap-10 space-y-10">
       <div className="md:w-1/2">
         <div className="shadow-xl rounded-xl px-5 py-4">
-          <h2 className="title my-3">
+          <h2 className="title my-3 dark:text-white">
             <span className="primary">About</span> me
           </h2>
-          <p className="opacity-75">
+          <p className="opacity-75 dark:text-white">
             Hi, I'm a motivated <strong className="primary">Front-end </strong>{' '}
             Developer seeking a<strong className="primary"> junior </strong>{' '}
             position to break into the industry passionate about crafting
@@ -54,10 +54,10 @@ const AboutMe = () => {
       </div>
       <div className="md:w-1/2">
         <div className=" shadow-xl rounded-xl px-5 py-4 space-y-5">
-          <h2 className="title my-3">
+          <h2 className="title my-3 dark:text-white">
             My <span className="primary">skills</span>
           </h2>
-          <p className="opacity-75">
+          <p className="opacity-75 dark:text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error ea,
             officia nemo in quaerat explicabo deleniti a! Ab quis libero dolore
             dolorem dolorum ad unde consectetur. Corrupti, aspernatur sunt!
@@ -72,7 +72,7 @@ const AboutMe = () => {
                   width={'50px'}
                   className="rounded-lg"
                 />
-                {skill.skill}
+                <p className="dark:text-white"> {skill.skill}</p>
               </li>
             ))}
           </ul>

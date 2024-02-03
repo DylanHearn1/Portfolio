@@ -37,8 +37,8 @@ const ProjectCard = ({
         />
       </div>
       <div className="md:w-1/2 space-y-5">
-        <h2 className="subheading">{title}</h2>
-        <p className="opacity-75">{description}</p>
+        <h2 className="subheading dark:text-white">{title}</h2>
+        <p className="opacity-75 dark:text-white">{description}</p>
         <div className="flex space-x-5">
           <SecondaryAnchor name="Code" link={codeLink} newTab />
           <MainAnchor name="Live site" link={liveLink} newTab />

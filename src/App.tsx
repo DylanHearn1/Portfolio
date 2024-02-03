@@ -8,11 +8,11 @@ import ContactMe from './pages/Contact/ContactMe';
 
 function App() {
   return (
-    <>
+    <div className="wrapper">
       <header>
         <Navbar />
       </header>
-      <section className="px-10" id="home">
+      <section className="px-10 dark:bg-dark" id="home">
         <Homepage />
       </section>
       <div className="space-y-40 px-10">
@@ -29,7 +29,7 @@ function App() {
       <footer className="mt-20">
         <Footer />
       </footer>
-    </>
+    </div>
   );
 }
 
