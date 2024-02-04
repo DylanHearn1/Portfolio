@@ -11,6 +11,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
 }
 
 .wrapper {
@@ -28,17 +29,29 @@ html {
   font-size: 1.20rem;
 }
 
-h1, h1, h3, h4, h5 {
+h1, h2, h3, h4, h5 {
   color: #050315;
+  transition: ease-in-out .3s
 }
 
 p {
   @include standard-font-size();
   color: #050315;
+  transition: ease-in-out .3s;
+  opacity: .80;
+}
+
+strong {
+  transition: ease-in-out .2s;
+}
+
+img {
+  transition: ease-in-out .3s
 }
 
 li {
   @include standard-font-size();
+  transition: ease-in-out .3s;
 
   a {
     @include standard-font-size();

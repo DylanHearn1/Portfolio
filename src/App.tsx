@@ -4,7 +4,6 @@ import Homepage from './pages/Homepage/Homepage';
 import AboutMe from './pages/About/AboutMe';
 import Footer from './components/Footer/Footer';
 import Projects from './pages/Projects/Projects';
-import ContactMe from './pages/Contact/ContactMe';
 
 function App() {
   return (
@@ -21,9 +20,6 @@ function App() {
         </section>
         <section id="projects">
           <Projects />
-        </section>
-        <section id="contact">
-          <ContactMe />
         </section>
       </div>
       <footer className="mt-20">

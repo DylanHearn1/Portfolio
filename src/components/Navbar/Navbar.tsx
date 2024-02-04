@@ -13,6 +13,9 @@ const Navbar = () => {
     document.documentElement.classList.toggle('dark', !darkMode);
   }
 
+  const listItemStyle =
+    'underline-offset-4 hover:underline decoration-2 decoration-primary hover:translate-y-1 ease-in-out duration-300';
+
   return (
     <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full z-10 dark:text-white">
       <div className="flex justify-between w-desktop m-auto">
@@ -33,14 +36,14 @@ const Navbar = () => {
           )}
         </button>
         <ul className="md:flex w-desktop px-10 space-x-10 py-2 items-center hidden">
-          <li className="hover:underline">
+          <li className={listItemStyle}>
             <a href="#home">Home</a>
           </li>
-          <li className="hover:underline">
+          <li className={listItemStyle}>
             <a href="#about">About</a>
           </li>
-          <li className="hover:underline">
-            <a href="#contact">Contact</a>
+          <li className={listItemStyle}>
+            <a href="#projects">Projects</a>
           </li>
           <li>
             <MainButton name="Download CV" onclick={() => alert('hello')} />
