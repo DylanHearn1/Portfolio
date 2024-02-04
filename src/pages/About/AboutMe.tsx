@@ -1,8 +1,8 @@
 import reactLogo from './../../assets/reactlogo.png';
-import tsLogo from './../../assets/tsLogo.png';
+import tsLogo from './../../assets/tslogo.png';
 import sassLogo from './../../assets/sasslogo.png';
 import twLogo from './../../assets/twlogo.png';
-import gitLogo from './../../assets/githubLogo.png';
+import gitLogo from './../../assets/githublogo.png';
 
 const AboutMe = () => {
   const skills = [

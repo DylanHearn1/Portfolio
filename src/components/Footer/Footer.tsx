@@ -18,7 +18,7 @@ const Footer = () => {
         <ul className="flex space-x-5">
           <li>
             <a
-              href="#"
+              href="#home"
               className="hover:underline underline-offset-8 ease-in-out duration-300"
             >
               Home
@@ -26,7 +26,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#about"
               className="hover:underline underline-offset-8 ease-in-out duration-300"
             >
               About
@@ -34,14 +34,17 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#projects"
               className="hover:underline underline-offset-8 ease-in-out duration-300"
             >
               Projects
             </a>
           </li>
         </ul>
-        <p>contat</p>
+        <p className="text-white opacity-100">
+          dylanhearn123 <br />
+          @gmail.com
+        </p>
       </div>
     </div>
   );
