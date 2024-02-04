@@ -1,30 +1,30 @@
-import reactLogo from './../../assets/reactlogo.png';
-import tsLogo from './../../assets/tslogo.png';
-import sassLogo from './../../assets/sasslogo.png';
-import twLogo from './../../assets/twlogo.png';
-import gitLogo from './../../assets/githublogo.png';
+import reactlogo from './../../assets/reactlogo.png';
+import tslogo from './../../assets/tslogo.png';
+import sasslogo from './../../assets/sasslogo.png';
+import twlogo from './../../assets/twlogo.png';
+import gitlogo from './../../assets/gitlogo.png';
 
 const AboutMe = () => {
   const skills = [
     {
       skill: 'React',
-      icon: reactLogo,
+      icon: reactlogo,
     },
     {
       skill: 'Typescript',
-      icon: tsLogo,
+      icon: tslogo,
     },
     {
       skill: 'SASS',
-      icon: sassLogo,
+      icon: sasslogo,
     },
     {
       skill: 'Tailwind',
-      icon: twLogo,
+      icon: twlogo,
     },
     {
       skill: 'Git',
-      icon: gitLogo,
+      icon: gitlogo,
     },
   ];
 
