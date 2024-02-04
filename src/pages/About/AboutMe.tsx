@@ -35,12 +35,12 @@ const AboutMe = () => {
           <h2 className="title my-3 dark:text-white">
             <span className="primary">About</span> me
           </h2>
-          <p className="opacity-75 dark:text-white">
+          <p className="dark:text-white">
             Hi, I'm a motivated <strong className="primary">Front-end </strong>{' '}
             Developer seeking a<strong className="primary"> junior </strong>{' '}
             position to break into the industry passionate about crafting
             seamless user experiences. Proficient in
-            <strong className="primary"> Typescript</strong>,{' '}
+            <strong className="primary opacity-100"> Typescript</strong>,{' '}
             <strong className="primary">Javascript</strong>,{' '}
             <strong className="primary">SCSS</strong>,{' '}
             <strong className="primary">Git</strong>, and experienced with
@@ -57,7 +57,7 @@ const AboutMe = () => {
           <h2 className="title my-3 dark:text-white">
             My <span className="primary">skills</span>
           </h2>
-          <p className="opacity-75 dark:text-white">
+          <p className="dark:text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error ea,
             officia nemo in quaerat explicabo deleniti a! Ab quis libero dolore
             dolorem dolorum ad unde consectetur. Corrupti, aspernatur sunt!

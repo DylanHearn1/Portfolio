@@ -25,16 +25,12 @@
         font-size: 1.20rem;
     }
 
-    @mixin accent {
-        background-color: #698cff
-    }
-
     .accent {
-        @include accent();
+        color: #698cff
     }
 
     .bg-accent {
-        @include accent();
+        background-color: #698cff
     }
 
     .primary {
@@ -51,6 +47,14 @@
 
     .bg-third {
         background-color: #050315;
+    }
+
+    .bg-dark {
+        background-color: #141414
+    }
+
+    .bg-dark-75 {
+        background-color: #141414a6;
     }
 
     .secondary {

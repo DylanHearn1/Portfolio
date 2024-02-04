@@ -13,22 +13,18 @@ const Navbar = () => {
     document.documentElement.classList.toggle('dark', !darkMode);
   }
 
-  const containerStyle =
-    'text-primary fixed backdrop-blur-md bg-white/75 left-0 w-full z-10';
-
   return (
-    <div
-      className={
-        toggle
-          ? `fixed z-10 backdrop-blur-md bg-white/75 w-full`
-          : `${containerStyle}`
-      }
-    >
+    <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full z-10 dark:text-white">
       <div className="flex justify-between w-desktop m-auto">
         <button onClick={toggleMode} className="px-10">
           {darkMode ? (
             <>
-              <img src={lightmodeicon} alt="light mode button" width={'50px'} />
+              <img
+                src={lightmodeicon}
+                alt="light mode button"
+                width={'50px'}
+                className="invert"
+              />
             </>
           ) : (
             <>

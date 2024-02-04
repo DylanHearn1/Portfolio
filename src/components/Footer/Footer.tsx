@@ -2,7 +2,7 @@ import giticon from './../../assets/githubLogo.png';
 
 const Footer = () => {
   return (
-    <div className="bg-third w-full left-0 absolute text-white">
+    <div className="bg-black w-full left-0 absolute text-white">
       <div className="w-desktop m-auto px-10 flex justify-between items-center py-10">
         <div>
           <img

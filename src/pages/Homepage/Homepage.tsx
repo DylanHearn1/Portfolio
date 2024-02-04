@@ -18,7 +18,7 @@ const Homepage = () => {
               alt="github logo"
               height="50px"
               width="50px"
-              className="brightness-0"
+              className="brightness-0 dark:invert"
             />
           </a>
           <a href="#">
@@ -27,7 +27,7 @@ const Homepage = () => {
               alt="linkin logo"
               height="50px"
               width="50px"
-              className="brightness-0"
+              className="brightness-0 dark:invert"
             />
           </a>
         </div>
