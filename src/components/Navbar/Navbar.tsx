@@ -6,12 +6,13 @@ import lightmodeicon from './../../assets/lightmodeicon.png';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [darkMode, setDarkMode] = useState(Boolean);
-
-  // ye i want it on
+  const [darkMode, setDarkMode] = useState('light' || 'dark');
 
   useEffect(() => {
-    toggleMode();
+    const theme = localStorage.getItem('theme');
+    theme === 'dark'
+      ? setDarkMode('dark')
+      : document.documentElement.classList.remove('dark');
   }, []);
 
   function toggleMode() {
@@ -19,14 +20,12 @@ const Navbar = () => {
 
     if (theme === 'light') {
       document.documentElement.classList.add('dark');
-      setDarkMode(true);
+      setDarkMode('dark');
       localStorage.setItem('theme', 'dark');
-    } else if (theme === 'dark') {
-      document.documentElement.classList.remove('dark');
-      setDarkMode(false);
-      localStorage.setItem('theme', 'light');
     } else {
-      localStorage.setItem('theme', 'dark');
+      document.documentElement.classList.remove('dark');
+      setDarkMode('light');
+      localStorage.setItem('theme', 'light');
     }
   }
 
@@ -37,7 +36,7 @@ const Navbar = () => {
     <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white">
       <div className="flex justify-between w-desktop m-auto">
         <button onClick={toggleMode} className="px-10">
-          {darkMode ? (
+          {darkMode === 'dark' ? (
             <>
               <img
                 src={lightmodeicon}
