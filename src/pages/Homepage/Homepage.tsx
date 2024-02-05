@@ -10,7 +10,7 @@ const Homepage = () => {
         <h1 className="sm:text-8xl text-6xl primary-text font-bold dark:text-white">
           Dylan Hearn
         </h1>
-        <h2 className="dark:text-white sm:text-5xl text-3xl">
+        <h2 className="dark:text-white sm:text-5xl text-2xl">
           Front-end Developer
         </h2>
         <div className="flex space-x-6">
