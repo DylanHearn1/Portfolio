@@ -1,5 +1,5 @@
 import gitHubLogo from './../../assets/githubLogo.png';
-import linkedinlogo from './../../assets/linkdedinlogo.png';
+import linkedinlogo from './../../assets/linkedinlogo.png';
 
 const Footer = () => {
   return (

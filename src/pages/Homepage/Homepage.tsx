@@ -1,7 +1,7 @@
 import MainButton from '../../components/Button/Button';
 import SecondaryButton from '../../components/Button/Secondary';
 import githubLogo from './../../assets/githubLogo.png';
-import linkedinLogo from './../../assets/linkdedinLogo.png';
+import linkedinlogo from './../../assets/linkedinlogo.png';
 
 const Homepage = () => {
   return (
@@ -26,7 +26,7 @@ const Homepage = () => {
             target="_blank"
           >
             <img
-              src={linkedinLogo}
+              src={linkedinlogo}
               alt="linkin logo"
               height="50px"
               width="50px"
