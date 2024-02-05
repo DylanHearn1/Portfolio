@@ -21,10 +21,12 @@ const Navbar = () => {
       document.documentElement.classList.add('dark');
       setDarkMode(true);
       localStorage.setItem('theme', 'dark');
-    } else {
+    } else if (theme === 'dark') {
       document.documentElement.classList.remove('dark');
       setDarkMode(false);
       localStorage.setItem('theme', 'light');
+    } else {
+      localStorage.setItem('theme', 'dark');
     }
   }
 
