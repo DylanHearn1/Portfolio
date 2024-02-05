@@ -31,13 +31,11 @@ html {
 
 h1, h2, h3, h4, h5 {
   color: #050315;
-  transition: ease-in-out .3s
 }
 
 p {
   @include standard-font-size();
   color: #050315;
-  transition: ease-in-out .3s;
   opacity: .80;
 }
 

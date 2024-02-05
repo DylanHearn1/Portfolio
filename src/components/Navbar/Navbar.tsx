@@ -1,16 +1,31 @@
 import MainButton from '../Button/Button';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import darkmodeicon from './../../assets/darkmodeicon.png';
 import lightmodeicon from './../../assets/lightmodeicon.png';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(Boolean);
+
+  // ye i want it on
+
+  useEffect(() => {
+    toggleMode();
+  }, []);
 
   function toggleMode() {
-    setDarkMode((prev) => !prev);
-    document.documentElement.classList.toggle('dark', !darkMode);
+    const theme = localStorage.getItem('theme');
+
+    if (theme === 'light') {
+      document.documentElement.classList.add('dark');
+      setDarkMode(true);
+      localStorage.setItem('theme', 'dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+      setDarkMode(false);
+      localStorage.setItem('theme', 'light');
+    }
   }
 
   const listItemStyle =
