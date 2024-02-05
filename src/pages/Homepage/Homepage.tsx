@@ -21,7 +21,10 @@ const Homepage = () => {
               className="brightness-0 dark:invert"
             />
           </a>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/dylan-hearn-84b216291/"
+            target="_blank"
+          >
             <img
               src={linkedinLogo}
               alt="linkin logo"

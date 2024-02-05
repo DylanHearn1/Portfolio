@@ -8,22 +8,22 @@ const BurgerMenu = ({ clicked }: BurgerMenuProps) => {
       <div
         className={
           clicked
-            ? `-rotate-45 translate-y-3.5 transition ease-in-out duration-300 w-12 h-1.5 bg-primary rounded-lg`
-            : `w-12 h-1.5 bg-primary rounded-lg`
+            ? `-rotate-45 translate-y-3 transition ease-in-out duration-300 w-10 h-1 bg-primary dark:bg-white rounded-lg`
+            : `w-10 h-1 bg-primary rounded-lg dark:bg-white`
         }
       ></div>
       <div
         className={
           clicked
-            ? `opacity-0 transition ease-in-out duration-300 w-12 h-1.5 bg-primary rounded-lg`
-            : `w-12 h-1.5 bg-primary rounded-lg`
+            ? `opacity-0 transition ease-in-out duration-300 w-10 h-1 bg-primary rounded-lg dark:bg-white`
+            : `w-10 h-1 bg-primary dark:bg-white rounded-lg`
         }
       ></div>
       <div
         className={
           clicked
-            ? `rotate-45 -translate-y-3.5 transition ease-in-out duration-300 w-12 h-1.5 bg-primary rounded-lg`
-            : `w-12 h-1.5 bg-primary rounded-lg`
+            ? `rotate-45 -translate-y-3 transition ease-in-out duration-300 w-10 h-1 bg-primary rounded-lg dark:bg-white`
+            : `w-10 h-1 bg-primary rounded-lg dark:bg-white`
         }
       ></div>
     </div>
