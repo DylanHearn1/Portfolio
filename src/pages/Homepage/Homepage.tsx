@@ -7,10 +7,12 @@ const Homepage = () => {
   return (
     <div className="h-dvh md:items-center flex flex-col justify-center md:flex-row md:justify-between space-y-10">
       <div className="space-y-3">
-        <h1 className="text-8xl primary-text font-bold dark:text-white">
+        <h1 className="sm:text-8xl text-6xl primary-text font-bold dark:text-white">
           Dylan Hearn
         </h1>
-        <h2 className="subheading dark:text-white">Front-end Developer</h2>
+        <h2 className="dark:text-white sm:text-5xl text-3xl">
+          Front-end Developer
+        </h2>
         <div className="flex space-x-6">
           <a href="https://github.com/DylanHearn1" target="_blank">
             <img

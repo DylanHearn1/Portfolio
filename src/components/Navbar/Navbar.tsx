@@ -6,7 +6,7 @@ import lightmodeicon from './../../assets/lightmodeicon.png';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   function toggleMode() {
     setDarkMode((prev) => !prev);
@@ -17,7 +17,7 @@ const Navbar = () => {
     'underline-offset-4 hover:underline decoration-2 decoration-primary hover:translate-y-1 ease-in-out duration-300';
 
   return (
-    <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full z-10 dark:text-white">
+    <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white">
       <div className="flex justify-between w-desktop m-auto">
         <button onClick={toggleMode} className="px-10">
           {darkMode ? (
