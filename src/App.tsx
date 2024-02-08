@@ -11,7 +11,7 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <section className="px-10 dark:bg-dark" id="home">
+      <section className="px-10" id="home">
         <Homepage />
       </section>
       <div className="space-y-40 px-10">

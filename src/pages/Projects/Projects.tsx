@@ -9,15 +9,15 @@ const Projects = () => {
     <div className="space-y-2">
       <div className="space-y-5 w-1/2">
         <h1 className="title dark:text-white">
-          My <span className="primary">projects</span>
+          My <span className="bg-accent text-white px-2">projects</span>
         </h1>
       </div>
       <div className="grid grid-cols-2 gap-x-10 divide-y-2">
         <ProjectCard
           title="Venture Vision"
-          description="This website is for real estate agencies to showcase homes through 3D
-          virtual tours. Using React, I've created a straightforward,
-          user-friendly interface for an optimal browsing experience."
+          description="This website was inspired for real estate agencies to showcase homes through 3D
+          virtual tours. Using React coupled with NodeJS, I've created a straightforward,
+          user-friendly interface with React-Router for an optimal browsing experience."
           liveLink="https://venture-delta.vercel.app/"
           codeLink="https://github.com/DylanHearn1/Venture"
           image={venture}
