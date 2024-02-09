@@ -11,7 +11,7 @@ const Homepage = () => {
           Dylan Hearn
         </h1>
         <h2 className="dark:text-white sm:text-5xl text-2xl">
-          <span className="accent">Front-end</span> Developer
+          <span className="accent font-bold">Front-end</span> Developer
         </h2>
         <div className="flex space-x-6">
           <a href="https://github.com/DylanHearn1" target="_blank">

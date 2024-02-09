@@ -35,8 +35,11 @@ h1, h2, h3, h4, h5 {
 
 p {
   @include standard-font-size();
-  color: #050315;
-  opacity: .80;
+  color: rgba(5, 3, 21, 0.8);
+
+  strong {
+    opacity: 1;
+  }
 }
 
 strong {

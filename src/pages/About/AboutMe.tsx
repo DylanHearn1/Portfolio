@@ -35,20 +35,13 @@ const AboutMe = () => {
           <span className="bg-accent px-2 text-white">About</span> me
         </h2>
         <div className="shadow-xl rounded-xl hover:shadow-2xl ease-in-out duration-300 px-4 py-4 dark:hover:shadow-blue-500">
-          <p className="dark:text-white dark:opacity-100">
-            Hi, I'm a motivated <strong className="accent">Front-end </strong>{' '}
+          <p className="dark:text-white/80">
+            Hi, I'm a motivated <strong className="accent ">Front-end </strong>{' '}
             Developer seeking a<strong className="accent"> junior </strong>{' '}
-            position to break into the industry passionate about crafting
-            seamless user experiences. Proficient in
-            <strong className="accent"> Typescript</strong>,{' '}
-            <strong className="accent">Javascript</strong>,{' '}
-            <strong className="accent">SCSS</strong>,{' '}
-            <strong className="accent">Git</strong>, and experienced with
-            <strong className="accent"> React</strong> and{' '}
-            <strong className="accent">Tailwind CSS</strong>. I thrive in
-            collaborative environments, ensuring code quality and
-            responsiveness. Eager to contribute my skills and learn in a dynamic
-            team.
+            position to break into the industry. Through various educational
+            projects, I've cultivated a knack for translating design concepts
+            into seamless user interfaces, eager to contribute my skills and
+            learn in a dynamic team.
           </p>
         </div>
       </div>
@@ -57,9 +50,16 @@ const AboutMe = () => {
           My <span className="bg-accent px-2 text-white">skills</span>
         </h2>
         <div className=" shadow-xl hover:shadow-2xl ease-in-out duration-300 rounded-xl px-4 py-4 space-y-5 dark:hover:shadow-blue-500">
-          <p className="dark:text-white dark:opacity-100">
-            Here is a small snapshot of my skills that I use regularly in my
-            work.
+          <p className="dark:text-white/80">
+            Proficient in
+            <strong className="accent"> Typescript</strong>,{' '}
+            <strong className="accent">Javascript</strong>,{' '}
+            <strong className="accent">SCSS</strong>,{' '}
+            <strong className="accent">Git</strong>, and experienced with
+            <strong className="accent"> React</strong> and{' '}
+            <strong className="accent">Tailwind CSS</strong>. I thrive in
+            collaborative environments, ensuring code quality and
+            responsiveness.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2">
             {skills.map((skill, ind) => (
