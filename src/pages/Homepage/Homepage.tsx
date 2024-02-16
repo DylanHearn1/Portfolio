@@ -5,7 +5,7 @@ import linkedinlogo from './../../assets/linkedinlogo.png';
 
 const Homepage = () => {
   return (
-    <div className="h-dvh md:items-center flex flex-col justify-center md:flex-row md:justify-between space-y-10">
+    <div className="h-dvh md:items-center text-center sm:text-left flex flex-col justify-center md:flex-row md:justify-between space-y-10">
       <div className="space-y-3">
         <h1 className="sm:text-8xl text-6xl font-bold dark:text-white">
           Dylan Hearn
@@ -13,7 +13,7 @@ const Homepage = () => {
         <h2 className="dark:text-white sm:text-5xl text-2xl">
           <span className="accent font-bold">Front-end</span> Developer
         </h2>
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 justify-center sm:justify-start">
           <a href="https://github.com/DylanHearn1" target="_blank">
             <img
               src={githubLogo}

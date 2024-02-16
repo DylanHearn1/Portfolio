@@ -31,7 +31,7 @@ const AboutMe = () => {
   return (
     <div className="md:flex gap-10 space-y-16 md:space-y-0">
       <div className="md:w-1/2 space-y-5">
-        <h2 className="title my-3 dark:text-white">
+        <h2 className="title my-3 dark:text-white text-center md:text-start">
           <span className="bg-accent px-2 text-white">About</span> me
         </h2>
         <div className="shadow-xl rounded-xl hover:shadow-2xl ease-in-out duration-300 px-4 py-4 dark:hover:shadow-blue-500">
@@ -46,7 +46,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="md:w-1/2 space-y-5">
-        <h2 className="title my-3 dark:text-white">
+        <h2 className="title my-3 dark:text-white text-center md:text-start">
           My <span className="bg-accent px-2 text-white">skills</span>
         </h2>
         <div className=" shadow-xl hover:shadow-2xl ease-in-out duration-300 rounded-xl px-4 py-4 space-y-5 dark:hover:shadow-blue-500">

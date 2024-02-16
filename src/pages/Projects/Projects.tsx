@@ -7,7 +7,7 @@ import macroGif from './../../assets/macro.gif';
 const Projects = () => {
   return (
     <div className="space-y-2">
-      <div className="space-y-5 w-1/2">
+      <div className="space-y-5">
         <h1 className="title dark:text-white">
           My <span className="bg-accent text-white px-2">projects</span>
         </h1>

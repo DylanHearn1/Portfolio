@@ -14,7 +14,7 @@ const Navbar = () => {
       ? setDarkMode('dark')
       : document.documentElement.classList.remove('dark');
   }, []);
- 
+
   function toggleMode() {
     const theme = localStorage.getItem('theme');
 
@@ -73,14 +73,14 @@ const Navbar = () => {
       </div>
       {toggle && (
         <ul className="md:hidden space-y-3 text-center shadow-xl py-5">
-          <li className="hover:underline">
+          <li className="hover:underline" onClick={(prev) => setToggle(!prev)}>
             <a href="#home">Home</a>
           </li>
-          <li className="hover:underline">
+          <li className="hover:underline" onClick={(prev) => setToggle(!prev)}>
             <a href="#about">About</a>
           </li>
-          <li className="hover:underline">
-            <a href="#contact">Contact</a>
+          <li className="hover:underline" onClick={(prev) => setToggle(!prev)}>
+            <a href="#projects">Projects</a>
           </li>
         </ul>
       )}
