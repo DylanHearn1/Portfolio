@@ -6,13 +6,14 @@ import lightmodeicon from './../../assets/lightmodeicon.png';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [darkMode, setDarkMode] = useState('light' || 'dark');
+  const [darkMode, setDarkMode] = useState('dark');
 
   useEffect(() => {
     const theme = localStorage.getItem('theme');
-    theme === 'dark'
-      ? setDarkMode('dark')
-      : document.documentElement.classList.remove('dark');
+    if (theme === 'light') {
+      setDarkMode('light');
+      document.documentElement.classList.remove('dark');
+    }
   }, []);
 
   function toggleMode() {
@@ -31,6 +32,8 @@ const Navbar = () => {
 
   const listItemStyle =
     'underline-offset-4 hover:underline decoration-2 decoration-primary hover:translate-y-1 ease-in-out duration-300';
+
+  console.log(darkMode);
 
   return (
     <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white">
