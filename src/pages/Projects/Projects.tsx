@@ -18,7 +18,7 @@ const Projects = () => {
           description="This website was inspired for real estate agencies to showcase homes through 3D
           virtual tours. Using React coupled with NodeJS, I've created a straightforward,
           user-friendly interface with React-Router for an optimal browsing experience."
-          liveLink="https://venture-delta.vercel.app/"
+          liveLink="https://venture.dylanhearn.co.uk/"
           codeLink="https://github.com/DylanHearn1/Venture"
           image={venture}
           gif={venturegif}
@@ -27,7 +27,7 @@ const Projects = () => {
           title="MacroStats"
           description="MacroStats is a robust and user-friendly web application designed to help individuals monitor and manage their daily nutritional intake effortlessly. As the user adds food, the app shows the real-time progress of each macro."
           liveLink="https://macro-stats.vercel.app/"
-          codeLink="https://github.com/DylanHearn1/MacroStats"
+          codeLink="https://macro.dylanhearn.co.uk/"
           image={trackerpng}
           gif={macroGif}
         />
