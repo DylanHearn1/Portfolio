@@ -58,10 +58,12 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <p className="text-white opacity-100">
-          dylanhearn123 <br />
-          @gmail.com
-        </p>
+        <a
+          href="mailto:dylanhearn123@gmail.com"
+          className="hover:underline underline-offset-8 ease-in-out duration-300"
+        >
+          Email me!
+        </a>
       </div>
     </div>
   );

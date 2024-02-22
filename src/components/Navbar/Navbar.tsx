@@ -1,8 +1,9 @@
-import MainButton from '../Button/Button';
+import MainAnchor from '../Anchor/MainAnchor';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import { useEffect, useState } from 'react';
 import darkmodeicon from './../../assets/darkmodeicon.png';
 import lightmodeicon from './../../assets/lightmodeicon.png';
+import cv from './../../assets/dylancv.pdf';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -34,8 +35,8 @@ const Navbar = () => {
     'underline-offset-4 hover:underline decoration-2 decoration-primary hover:translate-y-1 ease-in-out duration-300';
 
   return (
-    <div className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white">
-      <div className="flex justify-between w-desktop m-auto">
+    <nav className="text-primary fixed backdrop-blur-md bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white">
+      <div className="flex justify-between w-desktop m-auto md:py-2">
         <button onClick={toggleMode} className="px-10">
           {darkMode === 'dark' ? (
             <>
@@ -63,7 +64,7 @@ const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <MainButton name="Download CV" onclick={() => alert('hello')} />
+            <MainAnchor name="Download CV" download link={cv} />
           </li>
         </ul>
         <div className="flex justify-end md:hidden px-10 py-5">
@@ -85,7 +86,7 @@ const Navbar = () => {
           </li>
         </ul>
       )}
-    </div>
+    </nav>
   );
 };
 

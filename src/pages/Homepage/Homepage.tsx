@@ -1,20 +1,12 @@
-import MainButton from '../../components/Button/Button';
-import SecondaryButton from '../../components/Button/Secondary';
 import githubLogo from './../../assets/githubLogo.png';
 import linkedinlogo from './../../assets/linkedinlogo.png';
-import ContactPage from '../Contact/ContactPage';
-import { useState } from 'react';
+import SecondaryAnchor from '../../components/Anchor/SecondaryAnchor';
+import MainAnchor from '../../components/Anchor/MainAnchor';
+import cv from './../../assets/dylancv.pdf';
 
 const Homepage = () => {
-  const [aboutPageOpen, setAboutPageOpen] = useState(false);
-
-  function handleClose() {
-    setAboutPageOpen((prev) => !prev);
-  }
-
   return (
     <>
-      <ContactPage isOpen={aboutPageOpen} onclick={handleClose} />
       <div className="h-dvh md:items-center text-center sm:text-left flex flex-col justify-center md:flex-row md:justify-between space-y-10">
         <div className="space-y-3">
           <h1 className="sm:text-8xl text-6xl font-bold dark:text-white">
@@ -48,12 +40,12 @@ const Homepage = () => {
           </div>
         </div>
         <div>
-          <SecondaryButton
+          <SecondaryAnchor
             name="Contact"
-            onclick={() => setAboutPageOpen(true)}
-            margin="mr-5 mb-4"
+            link="mailto: dylanhearn123@gmail.com"
+            className="mr-5 mb-4"
           />
-          <MainButton name="Download CV" onclick={() => alert('clicked')} />
+          <MainAnchor name="Download CV" download link={cv} />
         </div>
       </div>
     </>
