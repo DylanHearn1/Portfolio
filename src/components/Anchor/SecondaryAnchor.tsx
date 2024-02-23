@@ -2,7 +2,7 @@ interface anchorProps {
   name: string;
   link: string;
   newTab?: boolean;
-  download?: boolean;
+  download: boolean;
   className?: string;
 }
 

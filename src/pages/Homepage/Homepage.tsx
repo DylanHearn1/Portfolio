@@ -44,6 +44,7 @@ const Homepage = () => {
             name="Contact"
             link="mailto: dylanhearn123@gmail.com"
             className="mr-5 mb-4"
+            download={false}
           />
           <MainAnchor name="Download CV" download link={cv} />
         </div>
