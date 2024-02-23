@@ -6,7 +6,10 @@ import MainAnchor from '../../components/Anchor/MainAnchor';
 const Homepage = () => {
   return (
     <>
-      <div className="h-dvh md:items-center text-center sm:text-left flex flex-col justify-center md:flex-row md:justify-between space-y-10">
+      <div
+        className="h-dvh md:items-center text-center sm:text-left flex flex-col justify-center md:flex-row md:justify-between space-y-10"
+        id="homepage-container"
+      >
         <div className="space-y-3">
           <h1 className="sm:text-8xl text-6xl font-bold dark:text-white">
             Dylan Hearn
@@ -38,17 +41,18 @@ const Homepage = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="flex flex-wrap justify-center sm:justify-normal gap-5">
           <SecondaryAnchor
             name="Contact"
             link="mailto: dylanhearn123@gmail.com"
-            className="mr-5 mb-4"
+            className=""
             download={false}
           />
           <MainAnchor
             name="Download CV"
             download
             link={'./../../assets/dylancv.pdf'}
+            className=""
           />
         </div>
       </div>

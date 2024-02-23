@@ -69,3 +69,10 @@ body::-webkit-scrollbar-thumb {
   background-color: #adadad;
   border-radius: 25px;
 }
+
+@media (max-height: 550px) {
+  #homepage-container {
+    height: auto;
+    padding: 10% 0;
+  }
+}
