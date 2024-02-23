@@ -2,7 +2,6 @@ import githubLogo from './../../assets/githubLogo.png';
 import linkedinlogo from './../../assets/linkedinlogo.png';
 import SecondaryAnchor from '../../components/Anchor/SecondaryAnchor';
 import MainAnchor from '../../components/Anchor/MainAnchor';
-import cv from './../../assets/dylancv.pdf';
 
 const Homepage = () => {
   return (
@@ -46,7 +45,11 @@ const Homepage = () => {
             className="mr-5 mb-4"
             download={false}
           />
-          <MainAnchor name="Download CV" download link={cv} />
+          <MainAnchor
+            name="Download CV"
+            download
+            link={'./../../assets/dylancv.pdf'}
+          />
         </div>
       </div>
     </>
