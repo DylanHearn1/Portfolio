@@ -3,7 +3,7 @@ interface anchorProps {
   link: string;
   margin?: string;
   newTab?: boolean;
-  download: boolean;
+  download?: boolean;
 }
 
 const MainAnchor = ({ name, margin, link, newTab, download }: anchorProps) => {
