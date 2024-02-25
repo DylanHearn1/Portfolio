@@ -38,10 +38,10 @@ const AboutMe = () => {
           <p className="dark:text-white/80">
             Hi, I'm a motivated <strong className="accent ">Front-end </strong>{' '}
             Developer seeking a<strong className="accent"> junior </strong>{' '}
-            position to break into the industry. Through various educational
-            projects, I've cultivated a knack for translating design concepts
-            into seamless user interfaces, eager to contribute my skills and
-            learn in a dynamic team.
+            position to break into the industry. I've worked on multiple
+            personal projects with React, NodeJS and Tailwind. I am confident in
+            converting design concepts into clean, modern user interfaces and I
+            am excited to integrate with and contribute to a great team.
           </p>
         </div>
       </div>

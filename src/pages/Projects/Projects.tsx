@@ -28,14 +28,14 @@ const Projects = () => {
         <ProjectCard
           title="MacroStats"
           description="MacroStats is a robust and user-friendly web application built with React designed to help individuals monitor and manage their daily nutritional intake effortlessly. As the user adds food, the app shows the real-time progress of each macro."
-          liveLink="https://macro-stats.vercel.app/"
-          codeLink="https://macro.dylanhearn.co.uk/"
+          liveLink="https://macro.dylanhearn.co.uk/"
+          codeLink=" https://github.com/DylanHearn1/MacroStats"
           image={trackerpng}
           gif={macroGif}
         />
         <ProjectCard
           title="Home Chef"
-          description="Using Wordpress, advanced custom fields (ACF's) and custom posts. I've created a site which showcases meals, intended to be cooked at home. The ACF's allow the meals, ingredients and difficulty to be rendered dynamicly."
+          description="Using Wordpress, I created a custom theme featuring advanced custom fields (ACF's) and custom posts. The site showcases meals, ingredients delivered, intended to be cooked at home. The ACF's allow the meals, ingredients and difficulty to be rendered dynamically."
           liveLink=""
           codeLink="https://github.com/DylanHearn1/WP-Menu-Theme"
           image={chef}
