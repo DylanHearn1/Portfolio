@@ -31,7 +31,7 @@ const ProjectCard = ({
         <img
           src={gif}
           alt="Project screenshot"
-          width={'100%'}
+          width={'99.96%'}
           className="rounded-xl"
           loading="lazy"
         />

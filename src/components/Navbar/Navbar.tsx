@@ -3,6 +3,7 @@ import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import { useEffect, useState } from 'react';
 import darkmodeicon from './../../assets/darkmodeicon.png';
 import lightmodeicon from './../../assets/lightmodeicon.png';
+import cv from './../../assets/dylancv.pdf';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -63,11 +64,7 @@ const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <MainAnchor
-              name="Download CV"
-              download
-              link={'./../../assets/dylancv.pdf'}
-            />
+            <MainAnchor name="Download CV" download link={cv} />
           </li>
         </ul>
         <div className="flex justify-end md:hidden px-10 py-5">

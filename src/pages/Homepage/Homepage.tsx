@@ -2,6 +2,7 @@ import githubLogo from './../../assets/githubLogo.png';
 import linkedinlogo from './../../assets/linkedinlogo.png';
 import SecondaryAnchor from '../../components/Anchor/SecondaryAnchor';
 import MainAnchor from '../../components/Anchor/MainAnchor';
+import cv from './../../assets/dylancv.pdf';
 
 const Homepage = () => {
   return (
@@ -45,15 +46,9 @@ const Homepage = () => {
           <SecondaryAnchor
             name="Contact"
             link="mailto: dylanhearn123@gmail.com"
-            className=""
             download={false}
           />
-          <MainAnchor
-            name="Download CV"
-            download
-            link={'./../../assets/dylancv.pdf'}
-            className=""
-          />
+          <MainAnchor name="Download CV" download link={cv} />
         </div>
       </div>
     </>
