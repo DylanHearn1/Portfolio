@@ -19,7 +19,7 @@ const ProjectCard = ({
   gif,
 }: ProjectCardProps) => {
   return (
-    <div className="flex flex-col-reverse md:flex-row space-y-5 col-span-2 items-center gap-10 md:even:flex-row-reverse py-10">
+    <div className="flex flex-col-reverse md:flex-row space-y-5 items-center gap-10 md:even:flex-row-reverse py-10">
       <div className="shadow-xl relative overflow-hidden rounded-lg md:w-1/2 ease-in-out duration-300 hover:shadow-2xl hover:scale-105 dark:hover:shadow-blue-500">
         <img
           src={image}

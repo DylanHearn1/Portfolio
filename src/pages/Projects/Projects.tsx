@@ -14,7 +14,7 @@ const Projects = () => {
           My <span className="bg-accent text-white px-2">projects</span>
         </h1>
       </div>
-      <div className="grid grid-cols-2 gap-x-10 divide-y-2">
+      <div className="grid gap-x-10 divide-y-2">
         <ProjectCard
           title="Venture Vision"
           description="This website was inspired for real estate agencies to showcase homes through 3D
