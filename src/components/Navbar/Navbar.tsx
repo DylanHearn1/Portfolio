@@ -64,7 +64,7 @@ const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <MainAnchor name="Download CV" download link={cv} />
+            <MainAnchor name="View CV" link={cv} newTab />
           </li>
         </ul>
         <div className="flex justify-end md:hidden px-10 py-5">

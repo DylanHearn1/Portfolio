@@ -52,14 +52,15 @@ const AboutMe = () => {
         <div className=" shadow-xl hover:shadow-2xl ease-in-out duration-300 rounded-xl px-4 py-4 space-y-5 dark:hover:shadow-blue-500">
           <p className="dark:text-white/80">
             Proficient in
-            <strong className="accent"> Typescript</strong>,{' '}
-            <strong className="accent">Javascript</strong>,{' '}
-            <strong className="accent">SCSS</strong>,{' '}
-            <strong className="accent">Git</strong>, and experienced with
-            <strong className="accent"> React</strong> and{' '}
-            <strong className="accent">Tailwind CSS</strong>. I thrive in
-            collaborative environments, ensuring code quality and
-            responsiveness.
+            <strong className="accent"> Typescript</strong>,
+            <strong className="accent"> Javascript</strong>,
+            <strong className="accent"> SCSS</strong>,
+            <strong className="accent"> Git</strong>,
+            <strong className="accent"> React</strong> and
+            <strong className="accent"> Tailwind CSS</strong>, with knowledge of
+            <strong className="accent"> NodeJS </strong>&
+            <strong className="accent"> PHP</strong>, I thrive in collaborative
+            environments, ensuring code quality and responsiveness.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2">
             {skills.map((skill, ind) => (

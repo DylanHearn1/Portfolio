@@ -48,7 +48,7 @@ const Homepage = () => {
             link="mailto: dylanhearn123@gmail.com"
             download={false}
           />
-          <MainAnchor name="Download CV" download link={cv} />
+          <MainAnchor name="View CV" link={cv} newTab />
         </div>
       </div>
     </>
