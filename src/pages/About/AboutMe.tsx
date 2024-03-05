@@ -3,6 +3,7 @@ import tslogo from './../../assets/tslogo.png';
 import sasslogo from './../../assets/sasslogo.png';
 import twlogo from './../../assets/twlogo.png';
 import gitlogo from './../../assets/gitlogo.png';
+import wplogo from './../../assets/wplogo.png';
 
 const AboutMe = () => {
   const skills = [
@@ -25,6 +26,10 @@ const AboutMe = () => {
     {
       skill: 'Git',
       icon: gitlogo,
+    },
+    {
+      skill: 'Wordpress',
+      icon: wplogo,
     },
   ];
 
@@ -58,9 +63,11 @@ const AboutMe = () => {
             <strong className="accent"> Git</strong>,
             <strong className="accent"> React</strong> and
             <strong className="accent"> Tailwind CSS</strong>, with knowledge of
-            <strong className="accent"> NodeJS </strong>&
-            <strong className="accent"> PHP</strong>, I thrive in collaborative
-            environments, ensuring code quality and responsiveness.
+            <strong className="accent"> NodeJS</strong>,
+            <strong className="accent"> PHP </strong>&
+            <strong className="accent"> Wordpress</strong>, I thrive in
+            collaborative environments, ensuring code quality and
+            responsiveness.
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2">
             {skills.map((skill, ind) => (

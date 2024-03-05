@@ -35,7 +35,7 @@ const Projects = () => {
         />
         <ProjectCard
           title="Home Chef"
-          description="Using Wordpress, I created a custom theme featuring advanced custom fields (ACF's) and custom posts. The site showcases meals, ingredients delivered, intended to be cooked at home. The ACF's allow the meals, ingredients and difficulty to be rendered dynamically."
+          description="Using PHP, I created a custom Wordpress theme featuring advanced custom fields (ACF's) and custom posts. The site showcases meals, ingredients delivered, intended to be cooked at home. The ACF's allow the meals, ingredients and difficulty to be rendered dynamically."
           liveLink="https://hellochef.org/"
           codeLink="https://github.com/DylanHearn1/WP-Menu-Theme"
           image={chef}
