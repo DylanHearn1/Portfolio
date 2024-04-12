@@ -35,8 +35,8 @@ const Navbar = () => {
     'underline-offset-4 hover:underline decoration-2 decoration-primary hover:translate-y-1 ease-in-out duration-300';
 
   return (
-    <nav className="text-primary fixed backdrop-blur-sm bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white py-2">
-      <div className="flex justify-between w-desktop m-auto ">
+    <nav className="text-primary fixed backdrop-blur-sm bg-white/75 dark:bg-dark-75 left-0 w-full shadow md:shadow-none dark:shadow-gray-700 z-10 dark:text-white">
+      <div className="flex justify-between w-desktop m-auto py-2">
         <button onClick={toggleMode} className="px-10">
           {darkMode === 'dark' ? (
             <>
@@ -53,7 +53,7 @@ const Navbar = () => {
             </>
           )}
         </button>
-        <ul className="md:flex w-desktop px-10 space-x-10 py-2 items-center hidden">
+        <ul className="md:flex w-desktop px-10 space-x-10 items-center hidden">
           <li className={listItemStyle}>
             <a href="#home">Home</a>
           </li>
@@ -67,7 +67,7 @@ const Navbar = () => {
             <MainAnchor name="View CV" link={cv} newTab />
           </li>
         </ul>
-        <div className="flex justify-end md:hidden px-10 py-5">
+        <div className="flex justify-end md:hidden px-10 py-5 items-center">
           <div onClick={() => setToggle((prev) => !prev)}>
             <BurgerMenu clicked={toggle} />
           </div>
