@@ -8,6 +8,8 @@ interface ProjectCardProps {
   gif: string;
   liveLink: string;
   codeLink: string;
+  extra?: string;
+  extra2?: string;
 }
 
 const ProjectCard = ({
@@ -17,6 +19,8 @@ const ProjectCard = ({
   liveLink,
   codeLink,
   gif,
+  extra,
+  extra2,
 }: ProjectCardProps) => {
   return (
     <div className="flex flex-col-reverse md:flex-row space-y-5 items-center gap-10 md:even:flex-row-reverse py-10">
@@ -39,6 +43,8 @@ const ProjectCard = ({
       <div className="md:w-1/2 space-y-5">
         <h2 className="subheading dark:text-white">{title}</h2>
         <p className="dark:text-white/80">{description}</p>
+        <p className=" dark:text-white/80">{extra}</p>
+        <p className=" dark:text-white/80">{extra2}</p>
         <div className="flex space-x-5">
           <SecondaryAnchor
             name="Code"

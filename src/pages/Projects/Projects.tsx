@@ -1,8 +1,8 @@
 import venture from './../../assets/Capture.png';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import venturegif from './../../assets/venturegif.gif';
-import trackerpng from './../../assets/tracker.png';
-import macroGif from './../../assets/macro.gif';
+import benchmarkpng from './../../assets/benchmark.png';
+import benchmarkgif from './../../assets/benchmark.gif';
 import chef from './../../assets/homechef.png';
 import chefgif from './../../assets/homechef.gif';
 
@@ -16,6 +16,16 @@ const Projects = () => {
       </div>
       <div className="grid gap-x-10 divide-y-2">
         <ProjectCard
+          title="Mind Benchmark"
+          description="Designed for a seamless full-stack user experience with user authentication, built with React, ExpressJS and MongoDB. Mind benchmark is a way to test your cognitive ability and compare with real-time global scores."
+          liveLink="https://benchmark.dylanhearn.co.uk/"
+          codeLink="https://github.com/DylanHearn1/Benchmark"
+          image={benchmarkpng}
+          gif={benchmarkgif}
+          extra="Username: Demo"
+          extra2="Password: password"
+        />
+        <ProjectCard
           title="Venture Vision"
           description="This website was inspired for real estate agencies to showcase homes through 3D
           virtual tours. Using React, NodeJS and PostgreSQL I've created a straightforward,
@@ -24,14 +34,6 @@ const Projects = () => {
           codeLink="https://github.com/DylanHearn1/Venture"
           image={venture}
           gif={venturegif}
-        />
-        <ProjectCard
-          title="MacroStats"
-          description="MacroStats is a robust and user-friendly web application built with React designed to help individuals monitor and manage their daily nutritional intake effortlessly. As the user adds food, the app shows the real-time progress of each macro."
-          liveLink="https://macro.dylanhearn.co.uk/"
-          codeLink=" https://github.com/DylanHearn1/MacroStats"
-          image={trackerpng}
-          gif={macroGif}
         />
         <ProjectCard
           title="Home Chef"
